@@ -1,9 +1,15 @@
-function add(a,b){
-    return a+b;
-}
+const notes = require('./notes.js');
+console.log('server file is available');
 
-var result =add(2,5);
-console.log(result);
+var age = notes.app;
+console.log(age);
+
+// function add(a,b){
+//     return a+b;
+// }
+
+// var result =add(2,5);
+// console.log(result);
 
 // let fs =require('fs');
 // let os =require('os');
